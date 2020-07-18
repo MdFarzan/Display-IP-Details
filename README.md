@@ -8,3 +8,9 @@ Javascript,
 AJAX,
 JSON.
 
+## API used
+ipify api for ip address.
+https://www.ipify.org/
+
+ 
+
