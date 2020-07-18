@@ -9,7 +9,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
+    
 }
 #wrapper{
     position:absolute;
@@ -35,7 +36,9 @@ button{
     background-color:orangered;
     color:white;
 }
-
+#ip{
+    font-size:1.3em;
+}
 button:hover{
     background:white;
     color:orangered;
@@ -47,4 +50,23 @@ button:hover{
 button:active{
     transform:translateY(2px);
     
+}
+
+p{
+    position:absolute;
+    bottom:10px;    
+    left:50%;
+    transform:translateX(-50%);
+    width:100%;
+    text-align:center;
+    color:crimson;
+}
+/*For extra small devices*/
+@media (max-width:576px){
+    #title{
+        font-size:1.7em;
+    }
+    #wrapper{
+        width:100%;
+    }
 }
