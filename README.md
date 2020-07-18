@@ -5,12 +5,11 @@ This is a simple page to display client IP address.
 HTML,
 CSS,
 Javascript,
-AJAX,
-JSON.
+AJAX.
 
 ## API used
-ipify api for ip address.
-https://www.ipify.org/
+IPStack url:
+https://api.ipstack.com
 
  
 
